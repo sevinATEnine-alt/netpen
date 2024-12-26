@@ -1,0 +1,355 @@
+<head>
+    <link rel = "stylesheet" href = "style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body>
+    <!-- <div class = "particle"></div>
+    <div class = "goal"></div> -->
+    <script src="animation.js"></script>
+    <div id="login">
+        <input id = "user" placeholder="Username" type="username"><br>
+        <input id = "pass" placeholder="Password" type="password"><br>
+        <button onclick="login(document.getElementById('user').value, document.getElementById('pass').value)">Login</button>
+        <div id="error" class="hidden">
+            Invalid username or password
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+        </div>
+      </div>
+
+    <script>
+        function setCookie(cname, cvalue, minutes) {
+            const d = new Date();
+            d.setTime(d.getTime() + (minutes*60*1000));
+            let expires = "expires="+ d.toUTCString();
+            document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+        }
+
+        var interval;
+
+        function login(user, pass) {
+            fetch(`./request-session/${user}/${pass}`, {method: "POST"}).then(r => r.json()).then(j => {
+                console.log(j);
+                if (j.status === 3) {
+                    document.getElementById('error').classList = 'animation';
+                    clearInterval(interval);
+                    interval = window.setTimeout(function(){
+                        document.getElementById('error').classList = 'hidden';
+                    }, 5000);
+                } else {
+                    setCookie('session', j.id, 30);
+                    window.location = './';
+                }
+            }).catch(e=> {
+                document.getElementById('error').classList = 'animation';
+                clearInterval(interval);
+                interval = window.setTimeout(function(){
+                    document.getElementById('error').classList = 'hidden';
+                }, 5000);
+            })
+            
+        }
+    </script>
+    
+</body>
