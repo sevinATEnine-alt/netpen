@@ -78,11 +78,11 @@ def animation_js():
 
 @app.route('/style.css')
 def style_css():
-    return getFile('./style.css')
+    return flask.Response(getFile('./style.css'), mimetype='text/css')
 
-@app.route('/index.css')
-def index_css():
-    return getFile('./index.css')
+@app.route('/login.css')
+def login_css():
+    return getFile('./login.css')
 
 @app.route('/login')
 def login():
